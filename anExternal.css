@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#p1 {
+  font-family: 'Coda Caption', sans-serif;
+}
+
+#p2 {
+  font-family: Georgia, serif;
+}
+
+#pictures img{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  padding: 5px;
+  border: 5px outset pink;
+  border-radius: 10px;
+}
+
+.dotted {
+  border-style: dotted;
+  border-radius: 10px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.centered {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 42%;
+  font-size: 40px;
+}
+
+.float div {
+  float: left;
+  padding: 15px;
+}
